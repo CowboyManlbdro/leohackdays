@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="keywords" content="ипит, хакатон, хакатон тула, hack, программирование, конкурсы it, it, ТГПУ">
+    <title>LeoHackDays</title>
+    <link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header class="header">
+            <div id="menu" class="menu">
+                
+                <div class="menuElement">
+                        <div class="menuEl"><a href="#about" class="transition">О хакатоне</a></div>
+                        <div class="menuEl"><a href="#track" class="transition">Треки</a></div>
+                        <div class="menuEl"><a href="#tutor" class="transition">КУРАТОРЫ ТРЕКОВ</a></div>
+                        <div class="menuEl"><a href="#programm" class="transition">Программа</a></div>
+                </div>
+                <div class="logo">
+                    <img src="img/logo/logo.png" alt="">
+                </div>
+                <div class="menuElement">
+                        <div class="menuEl"><a href="#faq" class="transition">Вопросы</a></div>
+                        <div class="menuEl"><a href="#win" class="transition">Победители</a></div>
+                        <div class="menuEl"><a href="#partners" class="transition">Партнеры</a></div>
+                        <div class="menuEl"><a href="#contacts" class="transition">Контакты</a></div>
+                </div>
+                <div class="hamb">
+                    <span id="hambBtn">
+                        <img id="hb" class="hambImg" src="img/icons/pixhamb1.svg" onclick="hambb(this);" alt="">
+                    </span>
+                </div>
+            </div>
+            <div id="menuHamb" class="hambMenu">
+                <ul>
+                    <li><a href="#about" class="transition">О хакатоне</a></li>
+                    <li><a href="#track" class="transition">Треки</a></li>
+                    <li><a href="#tutor" class="transition">КУРАТОРЫ ТРЕКОВ</a></li>
+                    <li><a href="#programm" class="transition">Программа</a></li>
+                    <li><a href="#brand" class="transition">Вопросы</a></li>
+                    <li><a href="#win" class="transition">Победители</a></li>
+                    <li><a href="#partners" class="transition">Партнеры</a></li>
+                    <li><a href="#contacts" class="transition">Контакты</a></li>
+                </ul>
+            </div>
+    </header>
+    <div class="list">
+        
+        <div id="brand" class="brand">
+                <h6> <mark> 25-27 МАРТА, ТУЛА </mark></h6>
+                <h1> <mark> LeoHackDays </mark></h1>    
+        </div>
+        
+
+        <div id="about" class="about container white">
+            <h2>О хакатоне</h2>
+            <div class="contentc">
+                <div class="text white bgpink p20 ramkaShadow ramka">
+                  
+                    <p>Хакатон Leo Hack Days - это трёхдневный форум разработчиков, во время которого команды, объединяющие специалистов из разных областей разработки программного обеспечения (программисты, дизайнеры, менеджеры) сообща решают практическую задачу из реального сектора экономики с возможностью её применения.</p>
+                </div>
+                <div class="media">
+                    <a href="https://forms.gle/MViUS9DaFCWfdV8w7" class="eightbit-btn w465" target="_blank"> <span>> Принять участие <</span>  </a>
+                    <p>
+                    <a href="docs/Polozhenie.pdf" class="eightbit-btn eightbit-btn--proceed w465" target="_blank"> > Положение < </a></p>
+                    <p>
+                    <a href="docs/REGLAMENT_Khakaton_VR_AR.pdf" class="eightbit-btn eightbit-btn--reset w465" target="_blank"> > Регламент < </a></p>
+                </div>
+               
+                
+            </div>
+        </div>
+
+
+    <div id="track" class="tracks">
+        <div class="container">
+    
+            <h2>ТРЕКИ ХАКАТОНА</h2>
+            
+            <div class="content">
+                <div class="media">
+                    <img src="img/icons/display.svg" alt="">
+                </div>
+                <div class="text center greenShadow ramka bggreen">
+                    <h4>Трек «Образование»</h4>
+                    <p>создание объектов, обладающих образовательным потенциалом при помощи технологий виртуальной или дополненной реальности. Плюсы таких проектов - иммерсивность, фокусировка, вовлечение, интерактивность, что значительно повышает вовлеченность и мотивацию обучающихся.</p>
+                    <img class="img_track" src="img/icons/display.svg" alt="">
+                </div>
+            </div>
+            <div class="content mt100">
+                <div class="text center redShadow ramka bgred">
+                    <h4>Трек «Промышленность»</h4>
+                    <p>виртуальная и дополненная реальность используются при проектировании сложных объектов, для тестирования эргономики и обучения персонала, для создания тренажёров и симуляторов.</p>
+                    <img class="img_track" src="img/icons/gal.svg" alt="">
+                </div>
+                <div class="media">
+                    <img src="img/icons/gal.svg" alt="">
+                </div>
+                
+            </div>
+            <div class="content mt100">
+                <div class="media">
+                    <img src="img/icons/rock.svg" alt="">
+                </div>
+                <div class="text center blueShadow ramka bgblue">
+                    <h4>Трек «Культура/Туризм»</h4>
+                    <p>это интерактивные изображения или видео, которые позволяют зрителю исследовать окружающее пространство на 360 градусов. В отличие от обычного видеоизображения, которое снимается с фиксированной точки обзора, съемки в VR захватывает всё пространство вокруг и позволяют изучить объекты детально. В индустрии туризма виртуальную реальность можно использовать для уникального и захватывающего просмотра туристических локаций.</p>
+                    <img class="img_track" src="img/icons/rock.svg" alt="">
+                </div>
+            </div>
+            <br><br>
+            
+        </div>
+    </div>
+
+    <div id="tutor" class="tutors container">
+            <h2>КУРАТОРЫ ТРЕКОВ</h2>
+            <div class="content white">
+                <div class="man ramka">
+                    <div class="imgtutor">
+                        <img src="img/tutors/teterin.jpg" alt="">
+                    </div>
+                    
+                    <div class="tutordesc DescShadow">
+                        <h4>Иван Тетерин</h4>
+                        <h5>Образование</h5>
+                    </div>
+                </div>
+                <div class="man  ramka">
+                    <div class="imgtutor">
+                        <img src="img/tutors/narhov.jpg" alt="">
+                    </div>
+                    
+                    <div class="tutordesc DescShadow">
+                        <h4>Михаил Нархов</h4>
+                        <h5>Промышленность</h5>
+                    </div>
+                </div>
+                <div class="man  ramka">
+                    <div class="imgtutor">
+                        <img src="img/tutors/andreeva.jpg" alt="">
+                    </div>
+                    
+                    <div class="tutordesc DescShadow">
+                        <h4>Юлия Андреева</h4>
+                        <h5>Культура/Туризм</h5>
+                    </div>
+                    
+                </div>
+            </div>
+    </div>
+
+
+    <div id="programm" class="timetable container">
+
+            <h2>РАСПИСАНИЕ</h2>
+            <div class="contentc">
+                <div class="text center">
+                    <h3>Пятница, 25 марта</h3>
+                </div>
+                <div class="text  p20 bgpink ramkaShadow ramka">
+                    <p>09:30–09:50 – Сбор и регистрация участников. Подключение дистанционных команд, проверка связи и оборудования</p>
+                    <p>10:00–10:30 – Открытие хакатона</p>
+                    <p>10:30–11:00 – Тренинг командообразования</p>
+                    <p>11:00–12:00 – Лекции от экспертов</p>
+                    <p>12:00–12:15 – ТБ при работе с оборудованием</p>
+                    <p>12:15–13:00 – Подготовка рабочего места, жеребьёвка, ознакомление с заданиями</p> 
+                    <p>13:00–14:00 – Обед</p>
+                    <p>14:00–16:00 – Работа над проектами</p>
+                    <p>16:00–16:45 – Чек-пойнт. Общение с экспертами и заказчиками</p>
+                    <p>16:45–19:00 – Работа над проектами</p>
+                </div>
+            </div>
+            <hr>
+            <div class="contentc">
+                <div class="text center">
+                    <h3>Суббота, 26 марта</h3>
+                </div>
+                <div class="text  p20 bgpink ramkaShadow ramka">
+                    <p>10:00–11:30 – Лекция от экспертов</p>
+                    <p>11:30–11:45 – Перерыв</p>
+                    <p>11:45–13:00 – Работа над проектами</p>
+                    <p>13:00–14:00 – Обед</p>
+                    <p>14:00–16:00 – Работа над проектами</p>
+                    <p>16:00–16:15 – Перерыв</p>
+                    <p>16.15–16.45 – Чек-пойнт. Общение с экспертами</p>
+                    <p>16:45–19:00 – Работа над проектами</p>
+                </div>
+            </div>
+            <hr>
+            <div class="contentc">
+                <div class="text center">
+                    <h3>Воскресенье, 27 марта</h3>
+                </div>
+                <div class="text p20 bgpink ramkaShadow ramka">
+                    <p>10:00–11:30 – Лекция от экспертов</p>
+                    <p>11:30–11:45 – Перерыв</p>
+                    <p>11.45–12.00 – Чек-пойнт. Общение с экспертами</p>
+                    <p>12:00–13:00 – Работа над проектами</p>
+                    <p>13:00–14:00 – Обед</p>
+                    <p>14:00–16:00 – Подготовка презентации</p>
+                    <p>16:00–18:00 – Презентации проектов</p>
+                    <p>18:00–18:30 – Работа экспертов</p>
+                    <p>18:30-19:30 – Оглашение результатов, награждение</p>
+                </div>
+            </div>
+    </div>
+
+    <div id="win" class="winners container">
+            <h2>ПОБЕДИТЕЛИ</h2>
+            <div class="content blue">
+                <div class="text mr20">
+                    <img src="img/icons/pixelcup.svg" alt="">
+                    <p>Лучшая работа в треке "Образование"</p>
+                </div>
+                <div class="text mr20">
+                    <img src="img/icons/medal1.svg" alt="">
+                    <p>Лучшая работа в треке "Промышленность"</p>
+                </div>
+                <div class="text mr20">
+                    <img src="img/icons/medal2.svg" alt="">
+                    <p>Лучшая работа в треке "Культура/Туризм"</p>
+                </div>
+                <div class="text">
+                    <img src="img/icons/pixelcup.svg" alt="">
+                    <p>Приз зрительских симпатий</p>
+                </div>
+            </div>
+    </div>
+
+    <div id="faq" class="faq container">
+            <h2>ЧАСТО ЗАДАВАЕМЫЕ ВОПРОСЫ</h2>
+            <div class="content-column">
+                <div class="question mr50 bgpink ramkaShadow ramka">
+
+                    <table>
+                        <tr>
+                            <td>
+                                <h3>Миша:</h3>
+                            </td>
+                            <td>
+                                <p>	Сколько человек может быть в команде?</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3>Хакатон:</h3> 
+                            </td>
+                            <td class="black">
+                                <p>Оптимальное количество человек в команде – 3-5. Но важно, чтобы каждый участник понимал свою командную роль и те задачи, которые он решает в рамках хакатона.</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+                <div class="question mr50 bgpink ramkaShadow ramka">
+
+                    <table>
+                        <tr>
+                            <td>
+                                <h3>Света:</h3>
+                            </td>
+                            <td >
+                                <p>	Все участники хакатона должны уметь программировать?</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h3>Хакатон:</h3> 
+                            </td>
+                            <td class="black">
+                                <p>Хакатон подразумевает командное участие. А в команде задачи распределяются в зависимости от компетенций. Это могут быть как программисты, так и проектные менеджеры, дизайнеры, сценаристы, игротехники.</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+    </div>
+
+    <div id="partners" class="partners">
+        <div class="container">
+            <h2>ПАРТНЕРЫ</h2>
+            <div class="content">
+                <div class="partner ramka "><a href="https://www.sfx-tula.ru/" target="_blank"><img class="transition" src="img/logo/expert.png" alt=""></a></div>
+                <div class="partner ramka"><a href="https://tulateh.ru/" target="_blank"><img class="transition" src="img/logo/noc.png" alt=""></a></div>
+                <div class="partner ramka"><a href="https://varwin.com/ru/" target="_blank"><img class="transition" src="img/logo/vw.png" alt=""></a></div>
+                <div class="partner ramka"><a href="https://www.tulazdm.ru/" target="_blank"><img class="transition" src="img/logo/zhdormash.png" alt=""></a></div>
+                <div class="partner ramka"><a href="https://ciocdo.ru/" target="_blank"><img class="transition" src="img/logo/iandu.png" alt=""></a></div>
+                <div class="partner ramka"><a href="https://vk.com/tsftula" target="_blank"><img class="transition" src="img/logo/tomfest.png" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div id="contacts" class="contacts container">
+
+                <h2>КОНТАКТЫ</h2>
+
+                    <h3>Адрес: проспект Ленина, 125, корпус 3, Тула</h3>
+                    <h3>Почта: technopark@tsput.ru</h3>
+                    <a href="https://vk.com/technopark_tsput"><img class="footer_link transition" src="img/logo/vk.png" alt=""></a>
+      
+
+ 
+
+    </div>
+    
+    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A8c1543876dc1d836baf29a9e60693da924596f5c1dc552d20302ac0aab7b4f14&amp;source=constructor" width="100%" height="454" frameborder="0"></iframe>
+
+    
+        <a id="regbtn" href="#about"><div class="regBtn"></div></a>
+    
+
+</div>
+
+<script>
+    $("#hambBtn").click(function () { 
+    $(".hambMenu").toggle(200);
+});
+</script>
+
+<script>
+    $("#regbtn").click(function (e) { 
+        e.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+
+
+
+    $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+    });
+});
+
+$(document).ready(function(){
+    $("#menuHamb").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500);
+        $(".hambMenu").toggle(200);
+    });
+});
+
+</script>
+
+<script>
+function hambb(target) {
+  var input = document.getElementById("hb");
+  if (input.getAttribute("class") == "hambImg") {
+    target.classList.add("view");
+  } else {
+    target.classList.remove("view");
+  }
+  return false;
+}
+</script>
+
+<script>
+    $("#fon2").click(function (e) {
+        e.preventDefault(); 
+        $('.brand').css({
+            'background':'url(../img/gifit.gif)',
+        });    
+    });
+
+    $("#fon1").click(function (e) {
+        e.preventDefault(); 
+        $('.brand').css({
+            'background':'url(../img/fon.gif)',
+        });    
+    });
+
+    $("#fon3").click(function (e) {
+        e.preventDefault(); 
+        $('.brand').css({
+            'background':'url(../img/fonpc.gif)',
+            'background-size':'cover',
+            'background-position':'center'
+
+        });    
+    });
+
+    $("#fon4").click(function (e) {
+        e.preventDefault(); 
+        $('.brand').css({
+            'background':'url(../img/mariogif.gif)',
+            'background-size':'cover',
+            'background-position':'center'
+        });    
+    });
+
+    
+</script>
+
+</body>
+</html>
